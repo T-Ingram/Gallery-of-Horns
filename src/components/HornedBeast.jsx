@@ -4,7 +4,7 @@ function HornedBeast(props) {
   return (
     <div>
       <h2>{props.title}</h2>
-      <img src={props.imageUrl} alt={props.title} title={props.title} />
+      <img src={props.imageUrl} alt={props.title} title={props.title} style={{ width: "180px", height: "180px"}}/>
       <p>{props.description}</p>
     </div>
   );
