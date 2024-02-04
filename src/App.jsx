@@ -1,14 +1,14 @@
 
 import Header from "./components/Header";
-import Main from "./components/Main";
+import Gallery from "./components/Gallery";
 import Footer from "./components/Footer";
 
 function App (){
   return (
     <>
-      <Header title="React Tracker" />
-      <Main />
-      <Footer year="2023" />
+      <Header title="Gallery of Horns" />
+      <Gallery />
+      <Footer author=" Trevor Ingram" />
     </>
     );
 }

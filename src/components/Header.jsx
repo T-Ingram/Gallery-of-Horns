@@ -1,7 +1,7 @@
 function Header (props) {
   return (
     <header>
-      <h2>{props.title}</h2>
+      <h1>{props.title}</h1>
     </header>
   )
 }
