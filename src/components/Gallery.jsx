@@ -1,28 +1,26 @@
-import { useState } from "react";
+import React from "react";
+import HornedBeast from "./HornedBeast";
 
-function Gallery () {
+function Gallery() {
+  // You can set the properties with your desired values
+  const hornedBeast1 = {
+    title: "Gazelle",
+    imageUrl: "https://example.com/image1.jpg",
+    description: "A graceful Gazelle with beautiful horns."
+  };
 
-  const initialCount = 12;
-  const [count, setCount] = useState(initialCount);
-  
-  
-    function subtract() {
-      setCount(count - 1);
-    }
-  
-    function add() {
-      setCount(count + 1);
-    }
-  
-    return (
-      <main>
-        <h2>let's track things starting with {initialCount}</h2>
-        <button onClick={subtract}>-</button>
-        <span>{count}</span>
-        <button onClick={add}>+</button>
-        <p>Raise your hand if your favorite number is {count}.</p>
-      </main>
-    )
-  }
+  const hornedBeast2 = {
+    title: "Mountain Goat",
+    imageUrl: "https://example.com/image2.jpg",
+    description: "This is an amazing Goat with fantastic horns."
+  };
+
+  return (
+    <div>
+      <HornedBeast {...hornedBeast1} />
+      <HornedBeast {...hornedBeast2} />
+    </div>
+  );
+}
 
 export default Gallery;
