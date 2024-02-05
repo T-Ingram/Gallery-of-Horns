@@ -1,10 +1,11 @@
 import React from "react";
 import HornedBeast from "./HornedBeast";
 import data from "/src/data.json";
+import { Row } from "react-bootstrap";
 
 function Gallery() {
   return (
-    <div>
+    <Row>
       {data.map((item) => (
         <HornedBeast
           key={item._id}
@@ -13,7 +14,7 @@ function Gallery() {
           description={item.description}
         />
       ))}
-    </div>
+    </Row>
   );
 }
 
