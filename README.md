@@ -15,30 +15,30 @@ Estimate of time needed to complete: 30 minutes
 
 Start time: 8:50pm
 
-Finish time: _____
+Finish time: 9:10pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 20 minutes
 
 ## Time Estimate
 
 Number and name of feature: Feature #2: **Allow Users to Favorite Individual Beasts**
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 30 minutes
 
-Start time: _____
+Start time: 9:12pm
 
-Finish time: _____
+Finish time: 9:39pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 27 minutes
 
 ## Time Estimate
 
 Number and name of feature: **Feature 3: Bootstrap**
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 15 minutes
 
-Start time: _____
+Start time: 9:41pm
 
-Finish time: _____
+Finish time: 9:50pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 9 minutes
