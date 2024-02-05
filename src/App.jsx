@@ -9,7 +9,7 @@ function App (){
     <Container>
       <Header title="Gallery of Horns" />
       <Gallery />
-      <Footer author=" Trevor Ingram" />
+      <Footer author="Trevor Ingram" />
     </Container>
     );
 }
