@@ -1,23 +1,18 @@
 import React from "react";
 import HornedBeast from "./HornedBeast";
+import data from "/src/data.json";
 
 function Gallery() {
-  const gazelle = {
-    title: "Gazelle",
-    imageUrl: "https://pixexid.com/api/download/image/a-4k-ultra-hd-mobile-wallpaper-featuring-a-majestic-and-graceful-pronghorn-antel-jv6mql1t.jpeg",
-    description: "A graceful Gazelle with beautiful horns."
-  };
-
-  const goat = {
-    title: "Mountain Goat",
-    imageUrl: "https://pixexid.com/api/download/image/a-stunning-goat-in-the-wild-from-nature-c2edx8sg.jpeg",
-    description: "This is an amazing Goat with fantastic horns."
-  };
-
   return (
     <div>
-      <HornedBeast {...gazelle} />
-      <HornedBeast {...goat} />
+      {data.map((item) => (
+        <HornedBeast
+          key={item._id}
+          title={item.title}
+          imageUrl={item.image_url}
+          description={item.description}
+        />
+      ))}
     </div>
   );
 }
